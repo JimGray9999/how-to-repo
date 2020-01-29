@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "lint": "eslint **/*.js --quiet",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "init": "./node_modules/.bin/eslint --init"
   },
   "license": "ISC",
   "dependencies": {
